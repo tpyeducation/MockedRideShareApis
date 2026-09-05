@@ -1,0 +1,10 @@
+
+Go to Main project directory:
+docker build -f docker/Dockerfile -t pmr27918791/mocked_hospitalapis:TEST .
+docker push  pmr27918791/mocked_hospitalapis:TEST
+
+
+http://localhost:9000
+user: admin
+password: adminadminadmin
+

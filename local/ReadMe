@@ -1,0 +1,4 @@
+java -jar target/Mocked-DoctorsAndPatientsApis-TP-YEAR2.jar --spring.profiles.active=local --BANK_CREDITLIMIT=900 
+or 
+Start from Intelliji with the following configuration:
+VM options: --spring.profiles.active=local --BANK_CREDITLIMIT=900

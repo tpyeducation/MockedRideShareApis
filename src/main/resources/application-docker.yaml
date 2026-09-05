@@ -1,0 +1,4 @@
+
+env:
+  name: ${ENV_NAME:docker}
+

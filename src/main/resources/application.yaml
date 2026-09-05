@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: DoctorsAndPatients
+server:
+  port: 8089   # Main application port
+
+management:
+  server:
+    port: 8081   # Actuator on separate port
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # Expose all endpoints
+
