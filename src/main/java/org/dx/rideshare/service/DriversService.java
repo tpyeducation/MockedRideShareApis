@@ -1,7 +1,7 @@
 package org.dx.rideshare.service;
 
 import org.dx.rideshare.model.Driver;
-import org.dx.rideshare.repository.DoctorRepository;
+import org.dx.rideshare.repository.DriversRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,10 +11,10 @@ import java.util.List;
 public class DriversService {
 
     @Autowired
-    private DoctorRepository doctorRepository;
+    private DriversRepository driversRepository;
 
     public List<Driver> getDoctorsFromService() {
-        List<Driver> doctors = doctorRepository.getDriversFromRepository();
+        List<Driver> doctors = driversRepository.getDriversFromRepository();
 
         return doctors;
     }
